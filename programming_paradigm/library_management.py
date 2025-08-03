@@ -4,7 +4,7 @@ class Book:
 
         self.title = title
         self.author = author
-        self._is_checked_out = False  # Private attribute - starts as available
+        self._is_checked_out = False
 
     def check_out(self):
 
@@ -32,7 +32,7 @@ class Book:
 class Library:
 
 
-    def __init__(self, name="Local Library"):
+    def __init__(self):
 
         self.name = name
         self._books = []
